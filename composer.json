@@ -1,0 +1,21 @@
+{
+    "name": "light/support",
+    "description": "Thư viện hỗ trợ",
+    "type": "php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "doanln",
+            "email": "doanln16@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Light\\Support\\": "src/"
+        }
+    }
+}
